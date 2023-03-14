@@ -1,0 +1,42 @@
+.container {
+    margin-top: 2rem;
+
+    .contact-form {
+        max-width: 50rem;
+        margin: auto;
+
+        .contact-inputs {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+
+            input[type="submit"] {
+                background-color: #ffdb44;
+                cursor: pointer;
+                width: 6rem;
+                outline: none;
+                border: none;
+                border-radius: 6px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                margin: auto;
+            }
+
+            input[type="text"] {
+                padding: 10px;
+                border-radius: 6px;
+            }
+            input[type="email"] {
+                padding: 10px;
+                border-radius: 6px;
+            }
+            input[type="submit"]:hover {
+                z-index: 1;
+                transform: scale(1.2);
+                box-shadow: 0px 0px 33px -8px rgba(0, 0, 0, 0.75);
+            }
+        }
+    }
+}
